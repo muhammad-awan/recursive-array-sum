@@ -1,5 +1,5 @@
-function sumArray (array, sum = 0, sumArr = 0){
-
+function sumArray (array){
+    let  sum = 0, sumArr = 0;
     for(var i = 0; i <= array.length; i++){
       if (typeof array[i] === 'number' ){
       sum += array[i]
